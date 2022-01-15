@@ -8,10 +8,11 @@
 }
 
 .alternate-content-title{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'whitneysemibold';
     font-size: 3rem;
     color: var(--color-alternate-section-title);
     margin-bottom: 2rem;
+    
 }
 
 .alternate-content-para{
@@ -22,9 +23,9 @@
 }
 
 .alternate-content-info{
-    margin-left: 4rem;
+    margin: 0 6.5rem;
 }
 
 .alternate-content-image{
-    width: 50%;
+    width: 100%;
 }

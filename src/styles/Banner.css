@@ -31,7 +31,7 @@
 
 }
 
-.banner-center{
+.banner-with-foreground{
     height: 72vh;
     background: var(--color-header);
     position: relative;

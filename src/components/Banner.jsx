@@ -2,12 +2,13 @@ import React from 'react'
 import '../styles/Banner.css';
 
 const Banner = ({ data }) => {
-    const {foregroundImage,bannerLeftImage,bannerRightImage,isForegroundRequired,downloadIcon,bannerTitle,bannerInfo,button1Title,button2Title} = data
+    const { foregroundImage, bannerLeftImage, bannerRightImage, isForegroundRequired, downloadIcon, bannerTitle, bannerInfo, button1Title, button2Title } = data
     return (
-        <div className='banner-center'>
-            {isForegroundRequired && (
-                <img className='banner-foreground' src={foregroundImage} alt='foreground' />
-            )}
+        <>
+        {isForegroundRequired?(
+            <div className='banner-with-foreground'>
+            <img className='banner-foreground' src={foregroundImage} alt='foreground' />
+
             <img className='banner-left-image' src={bannerLeftImage} alt="banner-left" />
             <img className='banner-right-image' src={bannerRightImage} alt="banner-right" />
             <div className='banner-content-center'>
@@ -22,6 +23,12 @@ const Banner = ({ data }) => {
             </div>
 
         </div>
+        ):(
+            <div className='banner'>
+                
+            </div>
+        )}
+        </>
     )
 }
 
