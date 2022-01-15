@@ -8,7 +8,9 @@ import '../styles/Header.css'
 const Header = () => {
     return (
         <div className='header'>
+            <Link to="/">
             <img className='header-logo' src={DiscordLogo} alt="discord-icon" />
+            </Link>
             <nav>
                 <ul className='header-menu-items'>
                     {menuItems.map((item, index) => {

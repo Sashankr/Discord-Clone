@@ -1,5 +1,5 @@
 .header{
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 
 .header-logo{
-    width: 150px;
+    width: 120px;
 }
 
 .header nav{
@@ -35,6 +35,8 @@
     color: var(--color-white);
     font-weight: 600;
     font-size: 1rem;
+    font-family: 'whitneysemibold';
+    font-weight: 600;
 }
 
 .header-open-discord{
@@ -47,6 +49,9 @@
     outline: unset;
     border-radius: 20px;    
     transition: 0.4s ease;
+    font-family: 'whitneylight';
+    font-weight: 600;
+    
 }
 
 .header-open-discord:hover{

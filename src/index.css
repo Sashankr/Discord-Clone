@@ -4,6 +4,35 @@
   margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Outfit:wght@300;400;600&display=swap');
+
+@font-face {
+  font-family: 'whitneylight';
+  src: url('./assets/fonts/whitneylight-webfont.woff2') format('woff2'),
+       url('./assets/fonts/whitneylight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'whitneymedium';
+  src: url('./assets/fonts/whitneymedium-webfont.woff2') format('woff2'),
+       url('./assets/fonts/whitneymedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'whitneysemibold';
+  src: url('./assets/fonts/whitneysemibold-webfont.woff2') format('woff2'),
+       url('./assets/fonts/whitneysemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,6 +58,6 @@ code {
 }
 
 .container{
-  width: 80%;
+  width: calc(100vw - 350px);
   margin: 0 auto;
 }

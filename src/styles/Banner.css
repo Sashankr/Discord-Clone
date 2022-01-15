@@ -1,0 +1,26 @@
+.banner{
+    height: 75vh;
+    background: var(--color-header);
+    position: relative;
+    
+}
+
+.banner-foreground{
+    width: 100vw;
+    position: absolute;
+    left: -200px;
+    bottom: 113px;
+    transform: scale(1.6);
+}
+
+.banner-left-image{
+    position: absolute;
+    left: -450px;
+    bottom: 0;
+}
+
+.banner-right-image{
+    position: absolute;
+    right: -380px;
+    bottom: 0;
+}

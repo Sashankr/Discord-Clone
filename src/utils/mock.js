@@ -1,27 +1,27 @@
 export const menuItems = [
     {
         title : 'Download',
-        url : 'https://discord.com/download',
+        url : '/download',
     },
     {
         title : 'Nitro',
-        url : 'https://discord.com/nitro',
+        url : '/nitro',
     },
     {
         title : 'Safety',
-        url : 'https://discord.com/safety',
+        url : '/safety',
     },
     {
         title : 'Support',
-        url : 'https://support.discord.com/hc/en-us'
+        url : '/support'
     },
     {
         title : 'Blog',
-        url : 'https://discord.com/blog'
+        url : '/blog'
     },
     {
         title : 'Careers',
-        url : 'https://discord.com/jobs'
+        url : '/jobs'
     }
 
 ]
