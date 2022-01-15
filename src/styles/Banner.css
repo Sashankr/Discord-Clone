@@ -89,6 +89,8 @@
     cursor: pointer;
     align-items: center;
     margin-right: 1rem;
+    transition: 0.4s ease;
+
 }
 
 .banner-redirect-button{
@@ -104,4 +106,13 @@
     align-items: center;
     cursor: pointer;
     margin-right: 1rem;
+    transition: 0.4s ease;
+}
+
+.banner-redirect-button:hover{
+    opacity: 0.9;
+}
+
+.banner-download-button:hover{
+    color: var(--color-hover );
 }
