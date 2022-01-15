@@ -37,6 +37,7 @@ body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 
 }
 
@@ -49,6 +50,7 @@ code {
   --color-header : #404EED;
   --color-white : #fff;
   --color-black : #000;
+  --light-black : #23272a;
   --font-secondary : Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --color-hover : #5865f2;
 }
@@ -58,6 +60,6 @@ code {
 }
 
 .container{
-  width: calc(100vw - 350px);
+  width: calc(100vw - 320px);
   margin: 0 auto;
 }

@@ -2,15 +2,15 @@
     height: 75vh;
     background: var(--color-header);
     position: relative;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .banner-foreground{
     width: 100vw;
     position: absolute;
     left: -200px;
-    bottom: 113px;
-    transform: scale(1.6);
+    bottom: 0;
 }
 
 .banner-left-image{
@@ -23,4 +23,85 @@
     position: absolute;
     right: -380px;
     bottom: 0;
+}
+.banner-content-center{
+    width: 750px;
+    position: absolute;
+    bottom: 30%;
+
+}
+
+.banner-center{
+    height: 72vh;
+    background: var(--color-header);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.banner-title{
+    /* position: absolute;
+    width: max-content;
+    top: -110px; */
+    left: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color:var(--color-white);
+    transform: translateX(1.5rem);
+    margin-bottom: 2.5rem;
+}
+
+.download-icon{
+    width: 14px;
+    margin-right: 5px;
+}
+
+.banner-info{
+    color: var(--color-white);
+    font-family: 'whitneylight';
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.banner-button-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-download-button{
+    background: var(--color-white);
+    border: unset;
+    outline: unset;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-family: 'whitneymedium';
+    color: var(--color-black);
+    border-radius: 40px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.banner-redirect-button{
+    background: var(--light-black );
+    color: var(--color-white);
+    border: unset;
+    outline: unset;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-family: 'whitneymedium';
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 1rem;
 }
