@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import AlternateImageContent from './components/AlternateImageContent';
 import { landingPageAlternateImageContent } from './utils/mock'
-
+import {landingPageHeaderBanner} from './utils/mock';
 
 import {
   BrowserRouter as Router,
@@ -17,7 +17,7 @@ function App() {
       <div className='app'>
         <div className="container">
           <Header />
-          <Banner isForegroundRequired={true} />
+          <Banner data={landingPageHeaderBanner} />
         </div>
       </div>
       <div>

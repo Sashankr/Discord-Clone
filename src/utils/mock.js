@@ -49,6 +49,17 @@ export const landingPageAlternateImageContent = [
         background : 'var(--color-white)'
 
     },
-    
-
 ]
+
+export const landingPageHeaderBanner = {
+    foregroundImage : 'images/landing-page-foreground.svg',
+    bannerLeftImage : 'images/landing-first-banner-left-image.svg',
+    bannerRightImage : 'images/landing-first-banner-right-image.svg',
+    downloadIcon : 'images/download-icon.svg',
+    isForegroundRequired : true,
+    bannerTitle : 'Imagine a place...',
+    bannerInfo:'...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.',
+    button1Title : 'Download for Windows',
+    button2Title : 'Open Discord in your browser'
+
+}
