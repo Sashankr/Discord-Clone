@@ -116,3 +116,73 @@
 .banner-download-button:hover{
     color: var(--color-hover );
 }
+
+
+/* Banner without foreground */
+
+.banner-footer{
+    background: var(--color-light-gray);
+    padding: 7rem 0;
+}
+
+.banner-footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-footer-download-button{
+    background: var(--color-header);
+    border: unset;
+    outline: unset;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-family: 'whitneymedium';
+    color: var(--color-white);
+    border-radius: 40px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 1rem;
+    transition: 0.4s ease;
+}
+
+.banner-footer-download-button:hover{
+    box-shadow: 0 10px 10px rgb(175, 175, 175);
+    opacity: 0.8;
+}
+
+.banner-footer-image{
+    width: 80%;
+}
+
+.banner-footer-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    letter-spacing: 0.4px;
+    margin-bottom: 2rem;
+}
+
+.banner-footer-title-container{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-footer-info{
+    font-family: 'whitneylight';
+    color: var(--color-alternate-section-para);
+    line-height: 30px;
+    font-size: 1.25rem;
+}
+
+.banner-footer-decoration{
+    text-align: center;
+}
+
+.banner-footer-decoration-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.4px;
+    margin-bottom: 3rem;
+}

@@ -4,6 +4,7 @@ import Banner from './components/Banner';
 import AlternateImageContent from './components/AlternateImageContent';
 import { landingPageAlternateImageContent } from './utils/mock'
 import {landingPageHeaderBanner} from './utils/mock';
+import { landingPageFooterBanner } from './utils/mock';
 
 import {
   BrowserRouter as Router,
@@ -25,6 +26,7 @@ function App() {
           return <AlternateImageContent key={index} data={alterateImageContent} />
         })}
       </div>
+      <Banner data={landingPageFooterBanner}/>
     </Router>
   );
 }

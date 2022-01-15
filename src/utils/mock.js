@@ -63,3 +63,14 @@ export const landingPageHeaderBanner = {
     button2Title : 'Open Discord in your browser'
 
 }
+
+export const landingPageFooterBanner = {
+    bannerTitle : 'RELIABLE TECH FOR STAYING CLOSE',
+    bannerInfo : 'Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.',
+    bannerImage : 'images/banner-footer.svg',
+    buttonHeading : 'Ready to start your journey?',
+    buttonTitle : 'Download for Windows',
+    buttonDecoration : 'images/heading-decoration.svg',
+    downloadIcon : 'images/download-icon-light.svg',
+
+}
