@@ -1,0 +1,54 @@
+.header{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-icon-container{
+    display: flex;
+}
+
+.header-logo{
+    width: 150px;
+}
+
+.header nav{
+    height: 20px;
+}
+
+.header-menu-items{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+}
+
+.header-menu-item{
+    margin-right: 2rem;
+}
+
+.header-menu-item:hover{
+    border-bottom: 2px solid var(--color-white);
+}
+
+.header-menu-item-link{
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header-open-discord{
+    text-decoration: none;
+    color: var(--color-black);
+    font-size: 14px;
+    background: var(--color-white);
+    padding: 10px 15px;
+    border: unset;
+    outline: unset;
+    border-radius: 20px;    
+    transition: 0.4s ease;
+}
+
+.header-open-discord:hover{
+    color: var(--color-hover);
+}
