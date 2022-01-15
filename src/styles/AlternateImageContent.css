@@ -1,0 +1,26 @@
+.alternate-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alternate-content-wrapper{
+    padding: 7rem 0;
+}
+
+.alternate-content-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: var(--color-alternate-section-title);
+    margin-bottom: 2rem;
+}
+
+.alternate-content-para{
+    font-family: 'whitneylight';
+    color: var(--color-alternate-section-para);
+    line-height: 30px;
+    font-size: 1.25rem;
+}
+
+.alternate-content-info{
+    margin-left: 4rem;
+}

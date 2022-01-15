@@ -53,6 +53,10 @@ code {
   --light-black : #23272a;
   --font-secondary : Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --color-hover : #5865f2;
+  --color-light-gray : #F6F6F6;
+  --color-alternate-section-title : #23272A;
+  --color-alternate-section-para : #5F6264;
+
 }
 
 .app{
