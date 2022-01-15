@@ -10,7 +10,7 @@ const AlternateImageContent = ({ data }) => {
         <div className='alternate-content' style={{ backgroundColor: background }}>
             <div className="container">
                 <div className='alternate-content-wrapper' style={{ flexDirection: isImageRight && 'row-reverse' }}>
-                    <img src={imageUrl} alt={title} />
+                    <img className='alternate-content-image' src={imageUrl} alt={title} />
                     <div className='alternate-content-info' >
                         <h2 className='alternate-content-title'>{title}</h2>
                         <p className='alternate-content-para'>{content}</p>
