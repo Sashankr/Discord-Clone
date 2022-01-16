@@ -62,6 +62,111 @@
     color: var(--color-hover);
 }
 
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--color-light-gray );
+}
+
+.download-icon{
+    width: 14px;
+    margin-right: 5px;
+}
+
+.sidebar-header i{
+    cursor: pointer;
+}
+
+.header-download-button{
+    background: var(--color-header);
+    border: unset;
+    outline: unset;
+    padding: 10px 32px;
+    font-size: 1rem;
+    font-family: 'whitneylight';
+    color: var(--color-white);
+    border-radius: 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 1rem;
+    justify-self: flex-end;
+    transition: 0.4s ease;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 287px);
+    background: rgba(0,0,0,0.6);
+    height: 100vh;
+    z-index: 9;
+    transition: 0.4s ease;
+}
+.overlay.show{
+    opacity: 1;
+}
+
+.overlay.hide{
+    opacity: 0;
+}
+
+
+.header-download-button:hover{
+    box-shadow: 0 10px 10px rgb(175, 175, 175);
+    opacity: 0.8;
+}
+
+.sidebar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9;
+    background: var(--color-white);
+    height: 100vh;
+    padding: 2rem 1rem;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    transition: 0.4s ease;
+    flex-direction: column;
+    
+}
+.sidebar-hide{
+    right: -287px;
+}
+
+.sidebar-header img{
+    width: 120px;
+    object-fit: contain;
+}
+
+.sidebar-nav-items{
+    display: flex;
+    flex-direction: column;
+    flex : 1
+}
+
+.sidebar-nav-items a{
+    padding: 0.75rem 10px;
+    text-decoration: none;
+    font-family: 'whitneylight';
+    color: var(--color-black);
+}
+
+.sidebar-nav-items a:hover{
+    text-decoration: underline;
+}
+
+.sidebar-nav-items a:first-child{
+    background: var(--color-light-gray);
+    border-radius: 10px;
+    color: #00B0F4;
+}
+
 @media(max-width:1028px){
     .header-menu-toggler{
         display: block;
@@ -74,5 +179,12 @@
     }
     .header-open-discord{
         margin-right: 3rem;
+    }
+
+    .alternate-content-title{
+        font-size: 3.5rem;
+    }
+    .alternate-content-info{
+        margin: unset;
     }
 }

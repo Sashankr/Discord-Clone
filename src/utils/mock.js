@@ -26,6 +26,36 @@ export const menuItems = [
 
 ]
 
+export const menuItemsMobile = [
+    {
+        title : 'Home',
+    },
+    {
+        title : 'Download',
+    },
+    {
+        title : 'Nitro',
+    },
+    {
+        title : 'Safety',
+        expandable : true,
+    },
+    {
+        title : 'Mod Academy',
+        expandable : true,
+    },
+    {
+        title : 'Support',
+    },
+    {
+        title : 'Blog',
+    },
+    {
+        title : 'Careers',
+    }
+
+]
+
 export const landingPageAlternateImageContent = [
     {
         imageUrl : 'images/alternate-image-landing-1.svg',
