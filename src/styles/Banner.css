@@ -307,6 +307,10 @@
         left: 60px;
         max-width: 80%;
     }
+
+    .banner-with-foreground{
+        height: 520px;
+    }
 }
 
 @media(max-width:450px){
