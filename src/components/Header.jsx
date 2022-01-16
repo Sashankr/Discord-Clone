@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <div className='header'>
             <Link to="/">
-            <img className='header-logo' src={DiscordLogo} alt="discord-icon" />
+                <img className='header-logo' src={DiscordLogo} alt="discord-icon" />
             </Link>
             <nav>
                 <ul className='header-menu-items'>
@@ -23,6 +23,9 @@ const Header = () => {
             </nav>
             <div>
                 <a className='header-open-discord' href="">Open Discord</a>
+            </div>
+            <div className='header-menu-toggler'>
+            <i class="fas fa-bars"></i>
             </div>
         </div>
     )

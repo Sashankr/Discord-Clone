@@ -186,3 +186,42 @@
     letter-spacing: 0.4px;
     margin-bottom: 3rem;
 }
+
+@media(max-width:1200px){
+    .banner-right-image{
+        right: -200px;
+    }
+}
+
+
+@media(max-width:1060px){
+    .banner-button-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-button-container button{
+        margin: 0rem 0 1rem;
+    }
+}
+
+
+@media(max-width:1028px){
+    .banner-left-image{
+        display: none;
+    }   
+    .banner-with-foreground{
+        justify-content: flex-start;
+        transform : unset;
+    }
+    .banner-info{
+        text-align: left;
+    }
+
+    .banner-button-container{
+        align-items: flex-start;
+    }
+    .header-menu-items{
+        display: none;
+    }
+}

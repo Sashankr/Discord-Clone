@@ -39,6 +39,10 @@
     font-weight: 600;
 }
 
+.header-menu-toggler{
+    display: none;
+}
+
 .header-open-discord{
     text-decoration: none;
     color: var(--color-black);
@@ -56,4 +60,19 @@
 
 .header-open-discord:hover{
     color: var(--color-hover);
+}
+
+@media(max-width:1028px){
+    .header-menu-toggler{
+        display: block;
+        position: absolute;
+        right: 3rem;
+        color: var(--color-white);
+        cursor: pointer;
+        font-size: 1.75rem;
+        transform: translateY(3px);
+    }
+    .header-open-discord{
+        margin-right: 3rem;
+    }
 }

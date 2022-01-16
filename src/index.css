@@ -67,3 +67,11 @@ code {
   width: calc(100vw - 320px);
   margin: 0 auto;
 }
+
+@media(max-width:1200px) {
+  .container{
+    width: 100%;
+    padding: 0 3rem;
+  }
+}
+
