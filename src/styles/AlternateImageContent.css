@@ -29,3 +29,26 @@
 .alternate-content-image{
     width: 60%;
 }
+
+
+@media(max-width:1060px){
+    .alternate-content-wrapper{
+        padding: 4rem 0;
+    }
+}
+
+
+@media(max-width:768px){
+    .alternate-content-wrapper{
+        flex-direction: column!important;
+    }
+    .alternate-content-image{
+        width: 100%;
+    }
+    .alternate-content-title{
+        font-size: 1.75rem;
+    }
+    .alternate-content-para{
+        font-size: 1.25rem;
+    }
+}

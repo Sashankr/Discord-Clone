@@ -37,10 +37,10 @@ const Header = () => {
     const [isSidebarShown, setIsSidebarShown] = useState(false);
 
     if (isSidebarShown) {
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflowY= 'hidden';
     }
     else {
-        document.body.style.overflow = 'scroll';
+        document.body.style.overflowY = 'scroll';
     }
 
     const toggleSidebar = (state) => {

@@ -187,4 +187,12 @@
     .alternate-content-info{
         margin: unset;
     }
+
 }
+
+@media (max-width:768px) {
+    .header-menu-toggler{
+        right: 1rem;
+    }
+}
+

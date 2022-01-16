@@ -98,3 +98,22 @@
 .footer-discord-icon{
     width: 120px;
 }
+
+@media(max-width:868px){
+    .footer-navigations{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap : 3rem 0;
+    }
+}
+
+@media(max-width:650px){
+    .social{
+        flex-direction: column;
+    }
+
+    .footer-navigations{
+        margin-left: unset;
+        margin-top: 2rem;
+    }
+}
