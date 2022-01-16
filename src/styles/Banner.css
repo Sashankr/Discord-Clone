@@ -308,3 +308,14 @@
         max-width: 80%;
     }
 }
+
+@media(max-width:450px){
+    .banner-title{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .banner-download-button, .banner-redirect-button{
+        padding: 10px 25px;
+    }
+}
