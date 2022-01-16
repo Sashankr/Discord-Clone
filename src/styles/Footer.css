@@ -1,0 +1,100 @@
+.footer{
+    background: var(--light-black) ;
+    padding: 5rem 0 1rem;
+}
+.flag-container{
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    margin: 1rem 0 2rem;
+}
+
+.flag-image{
+    margin-right: 5px;
+    width: 18px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-hover);
+    padding-bottom: 2rem;
+}
+
+.social-language{
+    margin-right: 5px;
+    font-family: 'whitneylight';
+}
+
+.social-title{
+    font-size: 2.5rem;
+    color: var(--color-header);
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-logo-container i{
+    color: var(--color-white);
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.navigation-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-navigations{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin-left: 5rem;
+}
+
+.navigation-title{
+    font-family: 'whitneylight';
+    font-size: 1rem;
+    color: var(--color-hover);
+    margin-bottom: 1rem;
+}
+
+.navigation-item{
+    font-family: 'whitneylight';
+    text-decoration: none;
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.navigation-item:hover{
+    text-decoration: underline;
+}
+
+.footer-additional{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.footer-open-discord{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 14px;
+    background: var(--color-hover);
+    padding: 10px 15px;
+    border: unset;
+    outline: unset;
+    border-radius: 20px;    
+    transition: 0.4s ease;
+    font-family: 'whitneylight';
+    font-weight: 600;
+}
+
+.footer-open-discord:hover{
+  background: #656fe7;
+}
+
+.footer-discord-icon{
+    width: 120px;
+}

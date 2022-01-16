@@ -72,5 +72,23 @@ export const landingPageFooterBanner = {
     buttonTitle : 'Download for Windows',
     buttonDecoration : 'images/heading-decoration.svg',
     downloadIcon : 'images/download-icon-light.svg',
-
 }
+
+export const footerNavigations = [
+    {
+        title : 'Product',
+        listItems : ['Download','Nitro','Status']
+    },
+    {
+        title : 'Company',
+        listItems : ['About','Jobs','Branding','Newsroom']
+    },
+    {
+        title : 'Resources',
+        listItems : ['College','Support','Safety','Blog','Feedback','Developers','StreamKit']
+    },
+    {
+        title : 'Policies',
+        listItems : ['Terms','Privacy','Cookie Settings','Guidlies','Acknowledgments','Licenses','Moderation']
+    }
+]

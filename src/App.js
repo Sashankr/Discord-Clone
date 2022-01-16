@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import AlternateImageContent from './components/AlternateImageContent';
+import Footer from './components/Footer';
 import { landingPageAlternateImageContent } from './utils/mock'
 import {landingPageHeaderBanner} from './utils/mock';
 import { landingPageFooterBanner } from './utils/mock';
@@ -27,6 +28,7 @@ function App() {
         })}
       </div>
       <Banner data={landingPageFooterBanner}/>
+      <Footer/>
     </Router>
   );
 }
