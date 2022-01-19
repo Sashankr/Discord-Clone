@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Outfit:wght@300;400;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 @font-face {
   font-family: 'whitneylight';
   src: url('./assets/fonts/whitneylight-webfont.woff2') format('woff2'),
@@ -50,15 +54,21 @@ code {
 
 :root{
   --color-header : #404EED;
+  --color-form-button : rgb(88,101,242);
+  --color-link : rgb(0,175,244);
   --color-white : #fff;
   --color-black : #000;
   --light-black : #23272a;
+  --color-form-background : #36393F;
+  --color-input-background : #313339;
+  --color-input-border : #27272b;
+  --color-form-label : #b9bbbe;
   --font-secondary : Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --color-hover : #5865f2;
   --color-light-gray : #F6F6F6;
   --color-alternate-section-title : #23272A;
   --color-alternate-section-para : #5F6264;
-
+  --color-select : rgb(114, 118, 125);
 }
 
 .banner-wrapper{

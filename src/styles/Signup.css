@@ -2,5 +2,178 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-repeat: no-repeat;
+}
+
+.signup-form{
+    width: 480px;
+    background: var(--color-form-background);
+    padding: 1.75rem 2rem 2rem;
+    border-radius: 5px;
+    box-shadow: 0 6px 7px 5px rgb(64 64 64 / 20%);
+}
+
+.signup-title{
+    margin-bottom: 0.5rem;
+    font-family: 'whitneymedium';
+    font-weight: 600;
+    color: var(--color-white);
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 0.65rem 0;
+}
+
+.form-group label{
+    color: var(--color-form-label );
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.form-group input{
+    margin-top: 10px;
+    padding: 10px;
+    background: var(--color-input-background);
+    border: 0.5px solid var(--color-input-border );
+    border-radius: 3px;
+    color: var(--color-white);
+    transition: 0.4s ease;
+}
+
+.form-group input:hover{
+    border: 0.5px solid var(--color-hover);
+}
+
+.form-group input:focus{
+    border: 0.5px solid var(--color-hover);
+    outline: unset;
+}
+
+.dob-select{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 0 10px;
+    padding: 10px 0 10px;
+}
+
+
+
+.Dropdown-control{
+   background: var(--color-input-background);
+   border: 0.5px solid transparent;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.Dropdown-placeholder{
+    color: var(--color-select );
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.Dropdown-option{
+    background: var(--color-input-background);
+    color: var(--color-white);
+    font-family: 'whitneylight';
+}
+
+.Dropdown-option:hover{
+    background: var(--color-form-background);
+    color: var(--color-white);
+
+}
+
+.Dropdown-menu{
+    border: 1px solid var(--color-input-border );
+}
+
+
+
+.Dropdown-menu::-webkit-scrollbar {
+    width: 10px;
+  }
+  .Dropdown-menu::-webkit-scrollbar-track {
+    background: var(--color-input-background);
+
+  }
+  .Dropdown-menu::-webkit-scrollbar-thumb {
+    background: #4b4b4b; 
+      border-radius:10px;
+  }
+
+
+.Dropdown-arrow-wrapper{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    color: var(--color-white);
+    font-size: 13px;
+    transition: 0.4s ease;
+}
+
+.singup-button{
+    width: 100%;
+    padding: 12px;
+    background: var(--color-form-button);
+    border: unset;
+    outline: unset;
+    font-family: 'whitneymedium';
+    color: var(--color-white);
+    font-size: 1.15rem;
+    text-transform: capitalize;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 0.75rem;
+}
+
+.singup-button:hover{
+    background: #4752C4;
+}
+
+.login-prompt{
+    color: var(--color-link);
+    text-decoration: unset;
+    font-family: 'whitneymedium';
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+}
+
+.login-prompt:hover{
+    text-decoration: underline;
+}
+
+.signu-terms{
+    padding: 1.25rem 0 0;
+    font-size: 12px;
+    color: var(--color-select);
+    font-family: 'whitneymedium';
+}
+
+.signu-terms span{
+    color: var(--color-link);
+    cursor: pointer;
+}
+
+@media(max-width:625px){
+    .signup-form{
+        width: auto;
+    }
+}
+
+@media(max-width:470px) {
+    .signup{
+        padding: 0 1rem;
+    }
 }
