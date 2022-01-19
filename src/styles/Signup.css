@@ -177,3 +177,16 @@
         padding: 0 1rem;
     }
 }
+
+@media(max-width:350px) {
+    .signup-form{
+        padding: 1rem;
+    }
+    .dob-select{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .Dropdown-placeholder{
+        font-size: 13px;
+    }
+}
