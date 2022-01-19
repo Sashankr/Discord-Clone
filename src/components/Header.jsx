@@ -63,7 +63,7 @@ const Header = () => {
 
             </nav>
             <div>
-                <a className='header-open-discord' href="">Open Discord</a>
+                <a className='header-open-discord' href="/signup">Open Discord</a>
             </div>
             <div onClick={() => { setIsSidebarShown(state => !state) }} className='header-menu-toggler'>
                 <i class="fas fa-bars"></i>
