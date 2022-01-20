@@ -50,7 +50,7 @@ const Signup = () => {
                     <div className='form-group'>
                         <label htmlFor="dob">Date Of Birth</label>
                         <div className='dob-select'>
-                            <Dropdown arrowClosed={<i class="fas fa-chevron-down"></i>}
+                            <Dropdown  arrowClosed={<i class="fas fa-chevron-down"></i>}
                                 arrowOpen={<i class="fas fa-chevron-up"></i>} options={months} onChange={setData} placeholder="Select" />
                             <Dropdown arrowClosed={<i class="fas fa-chevron-down"></i>}
                                 arrowOpen={<i class="fas fa-chevron-up"></i>} options={dates} onChange={setMonth} placeholder="Select" />
@@ -59,7 +59,7 @@ const Signup = () => {
                         </div>
                     </div>
                     <button className='singup-button'>Continue</button>
-                    <a className='login-prompt' href="">Already have an account?</a>
+                    <a className='login-prompt' href="/login">Already have an account?</a>
                     <p className='signu-terms'>By registering, you agree to Discord's <span>Terms of Service</span> and <span>Privacy Policy</span> </p>
                 </form>
             </div>
