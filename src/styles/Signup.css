@@ -16,48 +16,6 @@
     box-shadow: 0 6px 7px 5px rgb(64 64 64 / 20%);
 }
 
-.signup-title{
-    margin-bottom: 0.5rem;
-    font-family: 'whitneymedium';
-    font-weight: 600;
-    color: var(--color-white);
-    text-align: center;
-    font-size: 1.6rem;
-    letter-spacing: 0.5px;
-}
-
-.form-group{
-    display: flex;
-    flex-direction: column;
-    padding: 0.65rem 0;
-}
-
-.form-group label{
-    color: var(--color-form-label );
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.form-group input{
-    margin-top: 10px;
-    padding: 10px;
-    background: var(--color-input-background);
-    border: 0.5px solid var(--color-input-border );
-    border-radius: 3px;
-    color: var(--color-white);
-    transition: 0.4s ease;
-}
-
-.form-group input:hover{
-    border: 0.5px solid var(--color-hover);
-}
-
-.form-group input:focus{
-    border: 0.5px solid var(--color-hover);
-    outline: unset;
-}
 
 .dob-select{
     display: grid;
@@ -121,50 +79,7 @@
     transition: 0.4s ease;
 }
 
-.singup-button{
-    width: 100%;
-    padding: 12px;
-    background: var(--color-form-button);
-    border: unset;
-    outline: unset;
-    font-family: 'whitneymedium';
-    color: var(--color-white);
-    font-size: 1.15rem;
-    text-transform: capitalize;
-    transition: 0.4s ease;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-bottom: 0.75rem;
-}
 
-.singup-button:hover{
-    background: #4752C4;
-}
-
-.login-prompt{
-    color: var(--color-link);
-    text-decoration: unset;
-    font-family: 'whitneymedium';
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.4px;
-}
-
-.login-prompt:hover{
-    text-decoration: underline;
-}
-
-.signu-terms{
-    padding: 1.25rem 0 0;
-    font-size: 12px;
-    color: var(--color-select);
-    font-family: 'whitneymedium';
-}
-
-.signu-terms span{
-    color: var(--color-link);
-    cursor: pointer;
-}
 
 @media(max-width:625px){
     .signup-form{

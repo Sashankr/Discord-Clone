@@ -31,7 +31,7 @@ const Signup = () => {
         <div className='signup' style={{ backgroundImage: `url(${SignUpBackground})` }}>
             <div className='signup-form'>
                 <form action="">
-                    <h2 className='signup-title'>Create an account</h2>
+                    <h2 className='form-title'>Create an account</h2>
                     <div className='form-group'>
                         <label htmlFor="email">Email</label>
                         <input type="email" />
@@ -58,9 +58,9 @@ const Signup = () => {
                                 arrowOpen={<i class="fas fa-chevron-up"></i>} options={years} onChange={setYear} placeholder="Select" />
                         </div>
                     </div>
-                    <button className='singup-button'>Continue</button>
-                    <a className='login-prompt' href="/login">Already have an account?</a>
-                    <p className='signu-terms'>By registering, you agree to Discord's <span>Terms of Service</span> and <span>Privacy Policy</span> </p>
+                    <button className='form-button'>Continue</button>
+                    <a className='prompt' href="/login">Already have an account?</a>
+                    <p className='terms'>By registering, you agree to Discord's <a href=''>Terms of Service</a> and <a href=''>Privacy Policy</a> </p>
                 </form>
             </div>
         </div>
