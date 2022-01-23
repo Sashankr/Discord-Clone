@@ -1,0 +1,24 @@
+.bubble__icon{
+    width: 32px;
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-white);
+    border-radius: 50%;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.bubble__title{
+    position: absolute;
+}
+
+.bubble__notifications{
+    position: absolute;
+}

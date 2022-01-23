@@ -96,6 +96,11 @@ code {
   margin-bottom: 0.75rem;
 }
 
+.form-button a{
+  text-decoration: none;
+  color: var(--color-white);
+}
+
 .form-button:hover{
   background: #4752C4;
 }

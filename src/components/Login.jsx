@@ -4,6 +4,7 @@ import QrCode from '../assets/images/qr-code.png'
 import QrCodeOverlay from '../assets/images/qr-code-overlay.png'
 
 import SignUpBackground from '../assets/images/signup-background.svg'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -24,7 +25,7 @@ const Login = () => {
                     </div>
                     <a className='prompt' href="/login">Forgot your password?</a>
 
-                    <button className='form-button' style={{ marginTop: '1rem' }}>Login</button>
+                    <Link to="/dashboard"><button className='form-button' style={{ marginTop: '1rem' }}>Login </button></Link>
                     <p className='terms' style={{ padding: 'unset' }}>Neeed an account ?<a href='/signup'> Register</a></p>
                 </form>
                 <div className='qr-container'>

@@ -122,3 +122,31 @@ export const footerNavigations = [
         listItems : ['Terms','Privacy','Cookie Settings','Guidlies','Acknowledgments','Licenses','Moderation']
     }
 ]
+
+export const dashboardBubbles = [
+    {
+        img : 'images/dashboard-bubbles/discord-icon.png',
+        title : 'Home',
+        notifications : 2,
+    },
+    {
+        img : 'images/dashboard-bubbles/codedamn.jpg',
+        title : 'Codedamn',
+        notifications : 6,
+    },
+    {
+        img : 'images/dashboard-bubbles/scrimba.jpg',
+        title : 'Scrimba',
+        notifications : 4,
+    },
+    {
+        img : 'images/dashboard-bubbles/academind.jpg',
+        title : 'Academind',
+        notifications : 6,
+    },
+    {
+        img : 'images/dashboard-bubbles/codecademy.jpg',
+        title : 'Codecademy',
+        notifications : 5,
+    }
+]

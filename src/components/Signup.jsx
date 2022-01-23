@@ -4,6 +4,7 @@ import Dropdown from 'react-dropdown';
 
 import 'react-dropdown/style.css';
 import '../styles/Signup.css'
+import { Link } from 'react-router-dom';
 
 
 const months = [
@@ -58,7 +59,7 @@ const Signup = () => {
                                 arrowOpen={<i class="fas fa-chevron-up"></i>} options={years} onChange={setYear} placeholder="Select" />
                         </div>
                     </div>
-                    <button className='form-button'>Continue</button>
+                    <button className='form-button'><Link to="/login">Continue</Link></button>
                     <a className='prompt' href="/login">Already have an account?</a>
                     <p className='terms'>By registering, you agree to Discord's <a href=''>Terms of Service</a> and <a href=''>Privacy Policy</a> </p>
                 </form>

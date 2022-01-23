@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import SignupPage from './pages/SignupPage';
 import LoginPage from './pages/LoginPage';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Landing/>} />
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/login" element={<LoginPage/>} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
